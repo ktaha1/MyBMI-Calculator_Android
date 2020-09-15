@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">MyIMC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_calcul">Calcul</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_apropos">Apropos</string>
+    <string name="title_activity_res_calcul">ResCalcul</string>
+
+    <string name="poinds_unité">kg/lb</string>
+    <string name="taille_unité">Mètre/Inch</string>
+
+    <string-array name="poinds_unité">
+        <item>kg</item>
+        <item>lb</item>
+    </string-array>
+
+    <string-array name="taille_unité">
+        <item>Mètre</item>
+        <item>Inch</item>
+    </string-array>
+
+
+    <string name="cas2"><b>Vous êtes en situation de maigreur </b> \n
+Vous êtes un peu trop maigre par rapport à votre taille. Pas question de vous culpabiliser pour autant, un IMC légèrement sous la barre "normale" de 18,5 n’est pas toujours problématique.
+Les personnes grandes et minces par exemple peuvent présenter un IMC un peu faible, tout en gardant une corpulence normale.</string>
+
+    <string name="cas3"> <b> Votre corpulence est normale </b>\n
+Votre poids est idéal compte tenu de votre taille.
+Une alimentation équilibrée, sans excès de matières grasses, et une activité physique régulière comme la marche, la natation ou le vélo vous aideront à maintenir votre poids idéal.</string>
+
+    <string name="cas4"> <b> Vous êtes en surpoids </b>\n
+Votre poids apparaît modérément excessif compte tenu de votre taille. Ce surpoids peut augmenter votre risque de maladies, en particulier de troubles cardiaques ou vasculaires et de diabète.</string>
+
+    <string name="cas5"> <b>Vous êtes en situation d\’obésité modérée </b>  \n
+Votre poids est beaucoup trop important compte tenu de votre taille. Vous souffrez d\'obésité, une obésité dite "modérée" ou de stade 1. Cela signifie que vous êtes exposé à un risque non négligeable d\’être victime de maladies cardiaques (infarctus), vasculaires (accident vasculaire cérébral, insuffisance veineuse) ou métaboliques (diabète). </string>
+
+    <string name="cas6"> <b> Vous être en situation d\’obésité sévère </b> \n
+Votre poids est beaucoup trop important compte tenu de votre taille. Vous souffrez d\'obésité, une obésité dite "sévère" ou de stade 2. Cela signifie que vous êtes exposé à un risque important de maladies cardiaques (infarctus), vasculaires (accident vasculaire cérébral, insuffisance veineuse) ou métaboliques (diabète). </string>
+
+
+    <string name="cas7"> <b> Vous être en situation d\’obésité morbide ou massive </b> \n
+Votre poids est beaucoup trop important compte tenu de votre taille. Vous souffrez d\'obésité, une obésité dite "sévère" ou de stade 3. Cela signifie que vous êtes exposé à un risque important de maladies cardiaques (infarctus), vasculaires (accident vasculaire cérébral, insuffisance veineuse) ou métaboliques (diabète). </string>
+
+
+    <string name="cas1">
+        <b> Vous êtes en situation de dénutrition </b> \n Votre poids apparaît très insuffisant en regard de votre taille. Cette maigreur excessive peut être la conséquence d\’une maladie ou de troubles du comportement alimentaire, et elle peut aussi être elle-même à l\'origine d\'autres maladies.
+    </string>
+
+    <string name="t1">
+        <b>L\'IMC </b> c\'est une grandeur permet de déterminer de manière objective la corpulence d\'une personne. C\'est au mathématicien et statisticien Adolphe Quetelet (1796-1874) que l\'on doit cet indice.
+
+    </string>
+
+
+
+    <string name="t2">
+Depuis 1997, L\'Organisation Mondiale de la Santé (OMS) utilise cet indice afin d\'établir une classification standard de référence en matière de surcharge pondérale, qui puisse être utilisée de manière internationale.
+    </string>
+
+
+
+    <string name="t3">
+Cette classification d\'OMS a pour rôle d\'évaluer les risques liés au surpoids. Le fait de calculer de manière régulière son IMC présente donc un intérêt : repérer ses propres évolutions de poids et les interpréter en accord avec les informations fournies par l\'OMS.
+\n Le calcul de l\'IMC est relativement simple puisqu\'il ne nécessite que deux critères : votre taille et votre poids.
+    </string>
+
+
+
+    <string name="t4">
+Attention toutefois, cette formule de l\'IMC n\'est valable que pour les adultes âgés de 18 à 65 ans. Ainsi, les enfants, les adolescents, les personnes âgées, mais également les femmes enceintes ou les personnes très musclées, doivent s\'orienter vers des formules différentes.
+    </string>
+
+</resources>

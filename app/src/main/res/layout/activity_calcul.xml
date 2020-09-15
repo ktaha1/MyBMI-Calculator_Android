@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.imc.taha.myimc.Calcul"
+    android:background="@drawable/sky_cal"
+    android:weightSum="1">
+
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+
+     <ImageView
+         android:layout_width="65dp"
+         android:layout_height="50dp"
+         android:src="@drawable/back"
+         android:onClick="retour" />
+     <ImageView
+         android:layout_width="107dp"
+         android:layout_height="64dp"
+         android:src="@drawable/logo"
+         android:layout_gravity="right"
+         android:layout_marginLeft="145dp"
+         />
+     </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Votre taille :"
+        android:paddingLeft="14dp"
+        android:id="@+id/text1"
+        android:layout_marginTop="70dp"
+        android:textColor="#1a0517"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:typeface="serif"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="40dp"
+            android:ems="8"
+            android:id="@+id/taille"
+            android:layout_gravity="center" />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="right"
+            android:entries="@array/taille_unité"
+            android:prompt="@string/taille_unité"
+            android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Votre poids :"
+        android:paddingLeft="14dp"
+        android:layout_marginTop="30dp"
+
+        android:id="@+id/text2"
+
+        android:textColor="#1a0517"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint=""
+        android:ems="8"
+        android:id="@+id/poids"
+
+        android:layout_marginLeft="40dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/spinner2"
+        android:layout_gravity="right"
+        android:padding="5dp"
+        android:entries="@array/poinds_unité"
+        android:prompt="@string/poinds_unité"
+        />
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/cancel"
+        android:src="@drawable/cancel"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:clickable="false"
+        android:onClick="cancel" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ok"
+        android:src="@drawable/ok"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="170dp"
+        android:onClick="ok"
+        android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

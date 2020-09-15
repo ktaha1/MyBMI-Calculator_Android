@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky_cal"
+    android:orientation="vertical"
+    tools:context="com.imc.taha.myimc.ResCalcul">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="64dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="right"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/img"
+
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resIMC"
+            android:text="VotreIMC"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="19dp"
+            android:textColor="#4c8647"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/res1"
+            android:text="explication"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="18dp"
+            android:gravity="left"
+
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/retry"
+            android:layout_gravity="center"
+            android:onClick="retry"
+            android:layout_marginTop="20dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
